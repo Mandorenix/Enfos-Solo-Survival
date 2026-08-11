@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "Death Knight",
-      "symbol": "☀️",
+      "symbol": "☠️",
       "category": "Tank",
       "core_items": ["Death Mantle", "Vampiric Blade", "Skeleton Ring"],
       "stats": {"hp": 1300, "armor": 60, "damage": 120, "agi": 15, "str": 28, "int": 10},
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "name": "Paladin",
-      "symbol": "👥",
+      "symbol": "⚔️",
       "category": "Tank",
       "core_items": ["Angel Armor", "Holy Symbol", "Life Elixir"],
       "stats": {"hp": 1400, "armor": 65, "damage": 90, "agi": 12, "str": 22, "int": 20},
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "name": "Tauren Chieftain",
-      "symbol": "🐘",
+      "symbol": "🐂",
       "category": "Tank",
       "core_items": ["Battle Axe", "Totem Shield", "Berserk Brew"],
       "stats": {"hp": 1600, "armor": 45, "damage": 130, "agi": 8, "str": 35, "int": 5},
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "name": "Demon Hunter",
-      "symbol": "🐦",
+      "symbol": "👹",
       "category": "Tank",
       "core_items": ["Flame Sword", "Demon Armor", "Evasion Cloak"],
       "stats": {"hp": 1350, "armor": 50, "damage": 140, "agi": 20, "str": 20, "int": 15},
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "name": "Blademaster",
-      "symbol": "🗡",
+      "symbol": "🗡️",
       "category": "Damage Dealer",
       "core_items": ["Death Axe", "Critical Blade", "Illusion Sword"],
       "stats": {"hp": 1000, "armor": 25, "damage": 220, "agi": 30, "str": 20, "int": 10},
@@ -84,11 +84,173 @@
     {
       "id": 10,
       "name": "Archer",
-      "symbol": "🐮",
+      "symbol": "🏹",
       "category": "Damage Dealer",
       "core_items": ["Bow", "Ice Arrows", "Speed Boots"],
       "stats": {"hp": 850, "armor": 15, "damage": 180, "agi": 35, "str": 10, "int": 15},
       "description": "Ranged DPS with high agility"
+    },
+    {
+      "id": 11,
+      "name": "Marksman",
+      "symbol": "🎯",
+      "category": "Damage Dealer",
+      "core_items": ["Void Bow", "Longsight", "Poison Arrows"],
+      "stats": {"hp": 900, "armor": 10, "damage": 190, "agi": 32, "str": 12, "int": 18},
+      "description": "Precision ranged DPS"
+    },
+    {
+      "id": 12,
+      "name": "Berserker",
+      "symbol": "🔥",
+      "category": "Damage Dealer",
+      "core_items": ["Flamberge", "Bloodthirst", "Berserk Brew"],
+      "stats": {"hp": 1100, "armor": 15, "damage": 240, "agi": 20, "str": 30, "int": 5},
+      "description": "High damage melee with lifesteal"
+    },
+    {
+      "id": 13,
+      "name": "Assassin",
+      "symbol": "🔪",
+      "category": "Damage Dealer",
+      "core_items": ["Poison Dagger", "Invisibility Cloak", "Speed Boots"],
+      "stats": {"hp": 800, "armor": 10, "damage": 250, "agi": 40, "str": 10, "int": 10},
+      "description": "Stealth damage dealer with critical hits"
+    },
+    {
+      "id": 14,
+      "name": "Shadow Dancer",
+      "symbol": "🌑",
+      "category": "Damage Dealer",
+      "core_items": ["Void Staff", "Shadow Blade", "Mana Regeneration"],
+      "stats": {"hp": 850, "armor": 5, "damage": 200, "agi": 35, "str": 8, "int": 25},
+      "description": "Shadow-based damage dealer with evasion"
+    },
+    {
+      "id": 15,
+      "name": "Fire Mage",
+      "symbol": "🔥",
+      "category": "Damage Dealer",
+      "core_items": ["Flamberge", "Fire Rune", "Mana Regeneration"],
+      "stats": {"hp": 750, "armor": 0, "damage": 230, "agi": 15, "str": 5, "int": 35},
+      "description": "Fire magic specialist with AoE damage"
+    },
+    {
+      "id": 16,
+      "name": "Arcane Mistress",
+      "symbol": "❄️",
+      "category": "Damage Dealer",
+      "core_items": ["Ice Peak", "Troll Staff", "Mana Regeneration"],
+      "stats": {"hp": 700, "armor": 0, "damage": 210, "agi": 12, "str": 5, "int": 40},
+      "description": "Arcane magic specialist with crowd control"
+    },
+    {
+      "id": 17,
+      "name": "Thunder Lord",
+      "symbol": "⚡",
+      "category": "Damage Dealer",
+      "core_items": ["Chain Lightning Staff", "Storm Rune", "Speed Boots"],
+      "stats": {"hp": 800, "armor": 5, "damage": 220, "agi": 20, "str": 10, "int": 30},
+      "description": "Lightning magic specialist with chain attacks"
+    },
+    {
+      "id": 18,
+      "name": "Warlock",
+      "symbol": "💀",
+      "category": "Damage Dealer",
+      "core_items": ["Death Mantle", "Curse Staff", "Life Elixir"],
+      "stats": {"hp": 900, "armor": 10, "damage": 200, "agi": 15, "str": 15, "int": 25},
+      "description": "Dark magic specialist with DoT effects"
+    },
+    {
+      "id": 19,
+      "name": "Necromancer",
+      "symbol": "☢️",
+      "category": "Damage Dealer",
+      "core_items": ["Death Axe", "Soul Catcher", "Mana Regeneration"],
+      "stats": {"hp": 850, "armor": 0, "damage": 190, "agi": 10, "str": 12, "int": 35},
+      "description": "Undead summoner with soul-based attacks"
+    },
+    {
+      "id": 20,
+      "name": "Alchemist",
+      "symbol": "🧪",
+      "category": "Damage Dealer",
+      "core_items": ["Poison Dagger", "Chemical Launcher", "Healing Brew"],
+      "stats": {"hp": 800, "armor": 5, "damage": 200, "agi": 20, "str": 10, "int": 25},
+      "description": "Chemical warfare specialist"
+    },
+    {
+      "id": 21,
+      "name": "Engineer",
+      "symbol": "⚙️",
+      "category": "Damage Dealer",
+      "core_items": ["Explosive Armor", "Mechanical Arm", "Speed Boots"],
+      "stats": {"hp": 950, "armor": 25, "damage": 180, "agi": 15, "str": 20, "int": 20},
+      "description": "Explosive damage dealer with traps"
+    },
+    {
+      "id": 22,
+      "name": "Bard",
+      "symbol": "🎵",
+      "category": "Support",
+      "core_items": ["Time Watch", "Life Stone", "Mana Regeneration"],
+      "stats": {"hp": 900, "armor": 10, "damage": 50, "agi": 20, "str": 10, "int": 25},
+      "description": "Support with buffs and debuffs"
+    },
+    {
+      "id": 23,
+      "name": "Priest",
+      "symbol": "✨",
+      "category": "Support",
+      "core_items": ["Angel Armor", "Holy Symbol", "Life Elixir"],
+      "stats": {"hp": 1000, "armor": 20, "damage": 40, "agi": 15, "str": 10, "int": 30},
+      "description": "Healing specialist with high HP"
+    },
+    {
+      "id": 24,
+      "name": "Shaman",
+      "symbol": "🌀",
+      "category": "Support",
+      "core_items": ["Totem Shield", "Mana Regeneration", "Chain Lightning Staff"],
+      "stats": {"hp": 950, "armor": 15, "damage": 60, "agi": 18, "str": 12, "int": 28},
+      "description": "Support with totems and AoE effects"
+    },
+    {
+      "id": 25,
+      "name": "Druid",
+      "symbol": "🌿",
+      "category": "Support",
+      "core_items": ["Forest Armor", "Life Root", "Thorn Armor"],
+      "stats": {"hp": 1050, "armor": 20, "damage": 50, "agi": 20, "str": 15, "int": 25},
+      "description": "Nature support with healing and damage"
+    },
+    {
+      "id": 26,
+      "name": "Sorceress",
+      "symbol": "🍵",
+      "category": "Support",
+      "core_items": ["Troll Staff", "Mana Regeneration", "Time Watch"],
+      "stats": {"hp": 850, "armor": 5, "damage": 70, "agi": 15, "str": 5, "int": 35},
+      "description": "Magic support with buffs and debuffs"
+    },
+    {
+      "id": 27,
+      "name": "Cleric",
+      "symbol": "🙏",
+      "category": "Support",
+      "core_items": ["Holy Symbol", "Angel Armor", "Life Elixir"],
+      "stats": {"hp": 1100, "armor": 25, "damage": 30, "agi": 10, "str": 12, "int": 28},
+      "description": "Holy support with strong healing"
+    },
+    {
+      "id": 28,
+      "name": "Enchantress",
+      "symbol": "🦊",
+      "category": "Support",
+      "core_items": ["Void Staff", "Mana Regeneration", "Speed Boots"],
+      "stats": {"hp": 800, "armor": 5, "damage": 80, "agi": 25, "str": 8, "int": 30},
+      "description": "Enchantment specialist with buffs"
     }
   ],
   "categories": {
