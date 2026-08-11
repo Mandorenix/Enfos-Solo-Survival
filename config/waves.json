@@ -1,0 +1,24 @@
+{
+  "total_waves": 42,
+  "waves": [
+    {"wave": 1, "enemies": [{"type": "goblin", "count": 5}], "reward": 100, "boss": false},
+    {"wave": 2, "enemies": [{"type": "goblin", "count": 8}], "reward": 150, "boss": false},
+    {"wave": 3, "enemies": [{"type": "goblin", "count": 10}, {"type": "skeleton", "count": 3}], "reward": 200, "boss": false},
+    {"wave": 4, "enemies": [{"type": "skeleton", "count": 8}], "reward": 250, "boss": false},
+    {"wave": 5, "enemies": [{"type": "goblin", "count": 12}, {"type": "skeleton", "count": 5}], "reward": 300, "boss": false},
+    {"wave": 10, "enemies": [{"type": "goblin_king", "count": 1}], "reward": 1000, "boss": true, "boss_name": "Goblin King"},
+    {"wave": 15, "enemies": [{"type": "ogre", "count": 3}, {"type": "skeleton", "count": 10}], "reward": 800, "boss": false},
+    {"wave": 20, "enemies": [{"type": "dragon", "count": 1}], "reward": 2000, "boss": true, "boss_name": "Dragon"},
+    {"wave": 25, "enemies": [{"type": "necromancer", "count": 2}, {"type": "zombie", "count": 15}], "reward": 1500, "boss": false},
+    {"wave": 30, "enemies": [{"type": "lich", "count": 1}], "reward": 3000, "boss": true, "boss_name": "Lich"},
+    {"wave": 35, "enemies": [{"type": "demon", "count": 5}, {"type": "hellhound", "count": 8}], "reward": 2500, "boss": false},
+    {"wave": 40, "enemies": [{"type": "arch_demon", "count": 1}], "reward": 4000, "boss": true, "boss_name": "Arch Demon"},
+    {"wave": 42, "enemies": [{"type": "final_boss", "count": 1}], "reward": 5000, "boss": true, "boss_name": "Dark Overlord"}
+  ],
+  "difficulty_curve": "exponential",
+  "wave_multipliers": {
+    "health": 1.15,
+    "damage": 1.12,
+    "reward": 1.18
+  }
+}
