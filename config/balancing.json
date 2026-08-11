@@ -1,0 +1,29 @@
+{
+  "game_settings": {
+    "starting_lives": 100,
+    "max_waves": 42,
+    "target_fps": 60,
+    "base_gold": 100,
+    "gold_multiplier": 1.15,
+    "combo_multiplier": 1.1,
+    "max_combo": 100
+  },
+  "difficulty": {
+    "easy": {"health_multiplier": 0.8, "damage_multiplier": 0.8, "gold_multiplier": 1.2},
+    "normal": {"health_multiplier": 1.0, "damage_multiplier": 1.0, "gold_multiplier": 1.0},
+    "hard": {"health_multiplier": 1.2, "damage_multiplier": 1.2, "gold_multiplier": 0.8},
+    "insane": {"health_multiplier": 1.5, "damage_multiplier": 1.5, "gold_multiplier": 0.5}
+  },
+  "hero_balance": {
+    "tank": {"base_hp": 1200, "hp_growth": 150, "armor_growth": 10},
+    "damage_dealer": {"base_damage": 200, "damage_growth": 20, "agi_growth": 5},
+    "support": {"base_mana": 1000, "mana_growth": 100, "heal_multiplier": 1.5}
+  },
+  "enemy_balance": {
+    "base_hp": 100,
+    "base_damage": 20,
+    "hp_growth_per_wave": 1.15,
+    "damage_growth_per_wave": 1.12,
+    "speed_variation": 0.2
+  }
+}
