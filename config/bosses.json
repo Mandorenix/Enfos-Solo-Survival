@@ -1,0 +1,72 @@
+{
+  "bosses": [
+    {
+      "id": 1,
+      "name": "Goblin King",
+      "wave": 10,
+      "health": 5000,
+      "armor": 30,
+      "damage": 200,
+      "abilities": ["summon_minions", "power_slam"],
+      "reward": 1000,
+      "description": "First major boss, summons goblin minions"
+    },
+    {
+      "id": 2,
+      "name": "Dragon",
+      "wave": 20,
+      "health": 15000,
+      "armor": 50,
+      "damage": 400,
+      "abilities": ["fire_breath", "fly", "tail_swipe"],
+      "reward": 2000,
+      "description": "Flying boss with devastating fire breath"
+    },
+    {
+      "id": 3,
+      "name": "Lich",
+      "wave": 30,
+      "health": 20000,
+      "armor": 20,
+      "damage": 300,
+      "abilities": ["raise_dead", "frost_nova", "soul_drain"],
+      "reward": 3000,
+      "description": "Undead boss that raises fallen enemies"
+    },
+    {
+      "id": 4,
+      "name": "Arch Demon",
+      "wave": 40,
+      "health": 25000,
+      "armor": 40,
+      "damage": 500,
+      "abilities": ["hellfire", "teleport", "demonic_aura"],
+      "reward": 4000,
+      "description": "Powerful demon with teleportation"
+    },
+    {
+      "id": 5,
+      "name": "Dark Overlord",
+      "wave": 42,
+      "health": 30000,
+      "armor": 60,
+      "damage": 600,
+      "abilities": ["dark_rift", "summon_elites", "ultimate_power"],
+      "reward": 5000,
+      "description": "Final boss with all abilities"
+    },
+    {
+      "id": 6,
+      "name": "Ancient Hydra",
+      "wave": 25,
+      "health": 18000,
+      "armor": 35,
+      "damage": 350,
+      "abilities": ["multi_head_attack", "regenerate", "poison_spit"],
+      "reward": 2500,
+      "description": "Regenerating boss with multiple attack heads"
+    }
+  ],
+  "total_bosses": 6,
+  "boss_frequency": "every_10_waves"
+}
