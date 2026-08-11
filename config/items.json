@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+      "name": "Elven Plate Mail",
+      "category": "Basic",
+      "cost": 8500,
+      "stats": {"armor": 25},
+      "description": "Core component for early survival"
+    },
+    {
+      "name": "Tainted Leather",
+      "category": "Crafting",
+      "cost": 18500,
+      "requires": ["Elven Plate Mail", "Shroud of Shadows", "Arbelog Paw Boots"],
+      "stats": {"armor": 20, "agi": 18, "evasion": 15},
+      "description": "Built from Elven Plate Mail + Shroud of Shadows + Arbelog Paw Boots"
+    },
+    {
+      "name": "Crystal Armor",
+      "category": "Armor",
+      "cost": 20000,
+      "stats": {"armor": 100},
+      "risk": "1% chance to shatter permanently on each hit",
+      "description": "Massive armor but extreme risk"
+    },
+    {
+      "name": "Corrupt Armor",
+      "category": "Aura",
+      "cost": 100000,
+      "stats": {"armor": -50},
+      "aura": {"enemy_armor_reduction": -20},
+      "description": "Dark aura that reduces armor on all nearby enemies by 20, but costs the wearer -50 armor"
+    },
+    {
+      "name": "Ironbark Leathers",
+      "category": "Crafting",
+      "cost": 150000,
+      "stats": {"armor": 0, "attack_speed": 100},
+      "special": "Blocks one incoming spell every 4 seconds",
+      "description": "Critical against Caster bosses"
+    },
+    {
+      "name": "Shadowbark Leathers",
+      "category": "Legendary",
+      "cost": 168500,
+      "requires": ["Ironbark Leathers", "Tainted Leather"],
+      "stats": {"armor": 45, "agi": 60, "evasion": 35},
+      "special": "Spell Block",
+      "description": "Combined from Ironbark + Tainted Leather"
+    },
+    {
+      "name": "Reinforced Crystal Armor",
+      "category": "Legendary",
+      "cost": 190000,
+      "requires": ["Ironbark Leathers", "Crystal Armor", "Crystal Armor"],
+      "stats": {"armor": 80},
+      "special": "Cannot shatter",
+      "description": "Combined from Ironbark + 2x Crystal Armor. +80 Armor with no risk"
+    },
+    {
+      "name": "Victory Mail",
+      "category": "Endgame",
+      "cost": 340000,
+      "requires": ["Ironbark Leathers", "Ring of Victory"],
+      "stats": {"all_stats": 72},
+      "special": "Can cast Anti-Magic Shell",
+      "description": "Combined from Ironbark + Ring of Victory. +72 to all stats"
+    },
+    {
+      "name": "Shroud of Shadows",
+      "category": "Active",
+      "cost": 5000,
+      "special": "Shadow Walk - allows player to pass through enemies without collision",
+      "description": "Becomes inactive if player casts a spell"
+    },
+    {
+      "name": "Tung Barrikad",
+      "category": "Environment",
+      "cost": 8000,
+      "special": "Placed directly on Tiled map, forces CPU to reroute enemy waves",
+      "description": "Environmental obstacle"
+    },
+    {
+      "name": "Tome of Strength",
+      "category": "Tome",
+      "cost": 5000,
+      "stats": {"str": 2},
+      "description": "Permanent +2 STR. Used for infinite scaling in endgame (wave 35+)"
+    }
+  ]
+}
