@@ -1,0 +1,99 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Magic Infuser",
+      "symbol": "🛡️",
+      "category": "Tank",
+      "core_items": ["Titan Shield", "Demon Armor", "Life Stone"],
+      "stats": {"hp": 1200, "armor": 50, "damage": 100, "agi": 10, "str": 25, "int": 15},
+      "description": "Tank with high magic resistance and healing aura"
+    },
+    {
+      "id": 2,
+      "name": "Stone Giant",
+      "symbol": "🪟",
+      "category": "Tank",
+      "core_items": ["Granite Heart", "Giant Armor", "Battle Brew"],
+      "stats": {"hp": 1500, "armor": 70, "damage": 80, "agi": 5, "str": 30, "int": 5},
+      "description": "Massive tank with high HP and armor"
+    },
+    {
+      "id": 3,
+      "name": "Death Knight",
+      "symbol": "☀️",
+      "category": "Tank",
+      "core_items": ["Death Mantle", "Vampiric Blade", "Skeleton Ring"],
+      "stats": {"hp": 1300, "armor": 60, "damage": 120, "agi": 15, "str": 28, "int": 10},
+      "description": "Undead tank with lifesteal"
+    },
+    {
+      "id": 4,
+      "name": "Paladin",
+      "symbol": "👥",
+      "category": "Tank",
+      "core_items": ["Angel Armor", "Holy Symbol", "Life Elixir"],
+      "stats": {"hp": 1400, "armor": 65, "damage": 90, "agi": 12, "str": 22, "int": 20},
+      "description": "Holy tank with healing abilities"
+    },
+    {
+      "id": 5,
+      "name": "Tauren Chieftain",
+      "symbol": "🐘",
+      "category": "Tank",
+      "core_items": ["Battle Axe", "Totem Shield", "Berserk Brew"],
+      "stats": {"hp": 1600, "armor": 45, "damage": 130, "agi": 8, "str": 35, "int": 5},
+      "description": "Berserker tank with high damage"
+    },
+    {
+      "id": 6,
+      "name": "Treant Protector",
+      "symbol": "🌳",
+      "category": "Tank",
+      "core_items": ["Forest Armor", "Life Root", "Thorn Armor"],
+      "stats": {"hp": 1450, "armor": 55, "damage": 100, "agi": 10, "str": 25, "int": 18},
+      "description": "Nature tank with thorn damage"
+    },
+    {
+      "id": 7,
+      "name": "Demon Hunter",
+      "symbol": "🐦",
+      "category": "Tank",
+      "core_items": ["Flame Sword", "Demon Armor", "Evasion Cloak"],
+      "stats": {"hp": 1350, "armor": 50, "damage": 140, "agi": 20, "str": 20, "int": 15},
+      "description": "Demon slayer with high evasion"
+    },
+    {
+      "id": 8,
+      "name": "Ahlen",
+      "symbol": "⚡",
+      "category": "Damage Dealer",
+      "core_items": ["Frostbrand", "Speed Boots", "Chain Lightning Staff"],
+      "stats": {"hp": 900, "armor": 20, "damage": 200, "agi": 25, "str": 15, "int": 20},
+      "description": "Lightning mage with high burst damage"
+    },
+    {
+      "id": 9,
+      "name": "Blademaster",
+      "symbol": "🗡",
+      "category": "Damage Dealer",
+      "core_items": ["Death Axe", "Critical Blade", "Illusion Sword"],
+      "stats": {"hp": 1000, "armor": 25, "damage": 220, "agi": 30, "str": 20, "int": 10},
+      "description": "Melee DPS with critical strikes"
+    },
+    {
+      "id": 10,
+      "name": "Archer",
+      "symbol": "🐮",
+      "category": "Damage Dealer",
+      "core_items": ["Bow", "Ice Arrows", "Speed Boots"],
+      "stats": {"hp": 850, "armor": 15, "damage": 180, "agi": 35, "str": 10, "int": 15},
+      "description": "Ranged DPS with high agility"
+    }
+  ],
+  "categories": {
+    "Tank": {"count": 7, "focus": "Survival, aggro, armor", "strategy": "Act as living barricades in tight passages. Requires high HP regen."},
+    "Damage Dealer": {"count": 14, "focus": "Damage, burst, critical hits", "strategy": "Quickly clear enemies to drive up Combo meter and generate massive gold."},
+    "Support": {"count": 7, "focus": "Heal, control, buffs", "strategy": "Keep AI-Mercenaries alive, place traps, and craft equipment for their army."}
+  }
+}
