@@ -1,0 +1,3 @@
+from solo_x.ecs.world import World
+def create_projectile(world):
+    return world.create_entity()
