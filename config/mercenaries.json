@@ -1,0 +1,54 @@
+{
+  "mercenaries": [
+    {
+      "id": 1,
+      "name": "Footman",
+      "cost": 100,
+      "stats": {"hp": 500, "armor": 20, "damage": 50, "speed": 1.0},
+      "role": "tank",
+      "description": "Basic melee mercenary"
+    },
+    {
+      "id": 2,
+      "name": "Archer",
+      "cost": 150,
+      "stats": {"hp": 300, "armor": 5, "damage": 80, "speed": 0.9, "range": 5},
+      "role": "damage_dealer",
+      "description": "Ranged mercenary"
+    },
+    {
+      "id": 3,
+      "name": "Mage",
+      "cost": 200,
+      "stats": {"hp": 250, "armor": 0, "damage": 120, "speed": 0.8, "mana": 500},
+      "role": "damage_dealer",
+      "description": "Magic damage mercenary"
+    },
+    {
+      "id": 4,
+      "name": "Cleric",
+      "cost": 180,
+      "stats": {"hp": 400, "armor": 10, "damage": 30, "speed": 0.9, "mana": 600},
+      "role": "support",
+      "description": "Healing mercenary"
+    },
+    {
+      "id": 5,
+      "name": "Knight",
+      "cost": 250,
+      "stats": {"hp": 800, "armor": 40, "damage": 70, "speed": 0.9},
+      "role": "tank",
+      "description": "Heavy armored mercenary"
+    },
+    {
+      "id": 6,
+      "name": "Assassin",
+      "cost": 220,
+      "stats": {"hp": 350, "armor": 10, "damage": 150, "speed": 1.2},
+      "role": "damage_dealer",
+      "description": "High damage, low HP mercenary"
+    }
+  ],
+  "max_mercenaries": 10,
+  "upgrade_system": true
+}
